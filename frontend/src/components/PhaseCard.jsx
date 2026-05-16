@@ -171,7 +171,7 @@ function PhaseDetail({ phase, result }) {
     )
     return (
       <div>
-        <Row label="Modelo"    value="Groq · Llama 3.1" />
+        <Row label="Modelo"    value="Groq · Llama 3.3" />
         <Row label="Confianza" value={`${(result.confidence * 100).toFixed(0)}%`} />
         {result.explanation && (
           <p style={{

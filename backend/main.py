@@ -122,7 +122,7 @@ def verify(request: VerifyRequest):
         ai_result = ai_fallback(sentence)
         phases.append({
             "phase": 4,
-            "name": "Fallback IA (Claude)",
+             "name": "Fallback IA (Groq · Llama)",
             "description": "La IA evalúa el enunciado que las reglas no pudieron resolver",
             "status": "success" if ai_result["verdict"] != "IA_ERROR" else "error",
             "result": ai_result
@@ -135,7 +135,7 @@ def verify(request: VerifyRequest):
     else:
         phases.append({
             "phase": 4,
-            "name": "Fallback IA (Claude)",
+            "name": "Fallback IA (Groq · Llama)",
             "description": "No fue necesario — las reglas resolvieron el enunciado",
             "status": "skipped",
             "result": {"skipped": True}

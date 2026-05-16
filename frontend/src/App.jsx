@@ -17,7 +17,7 @@ const EMPTY_PHASES = [
   { phase: 1, name: 'Análisis Léxico',      status: 'pending', result: null },
   { phase: 2, name: 'Análisis Sintáctico',  status: 'pending', result: null },
   { phase: 3, name: 'Análisis Semántico',   status: 'pending', result: null },
-  { phase: 4, name: 'Fallback IA',          status: 'pending', result: null },
+  { phase: 4, name: 'Fallback IA (Groq · Llama)',          status: 'pending', result: null },
 ]
 
 export default function App() {

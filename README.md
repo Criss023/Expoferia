@@ -46,7 +46,7 @@ Resultado: FALSO (por regla) o 🤖 FALSO (por IA)
 | ✗ | FALSO | El enunciado es incorrecto |
 | ⚠ | INDETERMINADO | Las reglas no pudieron decidir |
 | — | NO VERIFICABLE | No puede verificarse objetivamente |
-| 🤖 | (via IA) | Determinado por Claude |
+| 🤖 | (via IA) | Determinado por Groq (LLama 3.1) |
 
 ---
 

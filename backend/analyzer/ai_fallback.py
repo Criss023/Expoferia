@@ -38,7 +38,7 @@ def ai_fallback(sentence: str) -> dict:
         }
 
     payload = json.dumps({
-        "model": "llama-3.1-8b-instant",
+      "model": "llama-3.3-70b-versatile",
         "messages": [
             {"role": "system", "content": PROMPT},
             {"role": "user", "content": f"Verifica este enunciado: \"{sentence}\""}
